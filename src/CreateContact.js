@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
-class CreateContact {
+class CreateContact extends Component {
   render(){
     return (
       <div>Create Contact</div>
     )
   }
 }
+
+export default CreateContact
